@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                url('https://images.unsplash.com/photo-1579972668140-f7da53ccc2a6');
+    text-align: center;
+    padding: 6rem 1rem;
+    margin-bottom: 2rem;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    color: #ff4500;
+    text-shadow: 0 0 15px #ff8c00;
+}
+
+.hero p {
+    font-size: 1.4rem;
+    color: #ffa500;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.key-facts {
+    margin: 3rem 0;
+}
+
+.facts-container {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.facts-container img {
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #ff4500;
+}
+
+.facts-list {
+    background: rgba(255,69,0,0.1);
+    padding: 2rem;
+    border-radius: 10px;
+    flex: 1;
+}
+
+h2 {
+    color: #ff8c00;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.structure {
+    margin: 4rem 0;
+}
+
+.layers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.layer {
+    background: rgba(255,140,0,0.1);
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #ff4500;
+}
+
+.phenomena {
+    margin: 4rem 0;
+}
+
+.phenomena-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.phenomenon {
+    background: rgba(255,69,0,0.1);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #ff6347;
+}
+
+footer {
+    background: #222;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+footer a {
+    color: #ffa500;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .facts-container {
+        flex-direction: column;
+    }
+    
+    .facts-container img {
+        width: 100%;
+    }
+    
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero {
+        padding: 4rem 1rem;
+    }
+}

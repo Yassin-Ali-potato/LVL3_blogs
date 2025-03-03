@@ -1,0 +1,117 @@
+body{
+    background-image: url("https://media.istockphoto.com/id/1360266685/vector/night-sky-realistic-starry-cosmos-texture-magic-glowing-galaxy-with-bright-stars-shining.jpg?s=612x612&w=0&k=20&c=Mn37BXxJIohIeJENLCdJnOmpRPY1Ud2FgH9eOadkMHg=");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+div{
+    color: white;
+    display:grid;
+    text-align: center;
+    font-size: 75px;
+    font-style:initial ;
+    font-family:arial black;
+}
+.button{
+  padding: 10px 15px;
+  background-color: #0a5cb3cc;
+  color: #fff;
+  text-decoration: none;
+  border-radius:10px;
+  display: flex;
+  justify-content: center;
+  width: 500px;
+
+    
+    
+}
+header {
+  background-color:#020b2a;
+  color:#ffffff;
+  padding: 5px;
+  text-align: center;
+  position: sticky;
+}
+  
+img{
+  height: 300px;
+  width: 300px;
+}
+  
+nav ul {
+  list-style: none;
+   
+}
+  
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+  
+nav ul li a {
+  color:white;
+  text-decoration: none;
+  font-size: 20px;
+}
+  
+.more {
+    position: relative;
+}
+  
+  .info {
+    position: absolute;
+    display: none;
+    background-color: #020b2a;
+    padding: 5px;
+    top: 100%;
+    left: 0;
+    min-width: 150px;
+}
+  .info{
+    border-radius: 10px;
+}
+  
+  .info li {
+    display: block;
+    margin: 10px ;
+    padding: 5px;
+    border-radius: 15px;
+}
+  
+  .info li a {
+    transition:2s;
+    border-radius: 10px;
+}
+  
+.more:hover .info {
+  display: block;
+}
+  
+.info a {
+  color: white ;
+  font-size: 18px ;
+  padding: 10px 15px ;
+}
+  
+.info a:hover {
+  background-color: burlywood ;
+    
+}
+  
+  
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+    
+}
+
+@media (min-width: 1025px) {
+    body {
+
+        font-size: 20px;
+    }
+    
+}
+

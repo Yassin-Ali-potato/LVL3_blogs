@@ -1,0 +1,138 @@
+header {
+    background-color:#020b2a;
+    color:#ffffff;
+    padding: 5px;
+    text-align: center;
+    position: sticky;
+  }
+  
+  img{
+    height: 300px;
+    width: 300px;
+  }
+  
+  nav ul {
+    list-style: none;
+    
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .more {
+    position: relative;
+  }
+  
+  .info {
+    position: absolute;
+    display: none;
+    background-color: #020b2a;
+    padding: 5px;
+    top: 100%;
+    left: 0;
+    min-width: 150px;
+  }
+  .info{
+    border-radius: 10px;
+  }
+  
+  .info li {
+    display: block;
+    margin: 10px ;
+    padding: 5px;
+    border-radius: 15px;
+  }
+  
+  .info li a {
+    transition:2s;
+    border-radius: 10px;
+  }
+  
+  .more:hover .info {
+    display: block;
+  }
+  
+  .info a {
+    color: white ;
+    font-size: 18px ;
+    padding: 10px 15px ;
+  }
+  
+  .info a:hover {
+    background-color: burlywood ;
+    
+  } 
+
+h1 {
+    color: black;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.info-section {
+    margin-bottom: 30px;
+}
+
+.info-section h2 {
+    color: dimgray;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+form {
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+a{
+    text-decoration: none;
+    color:midnightblue;
+    font-size: larger;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+button {
+    background: dodgerblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    filter: brightness(.8);
+}
+
+
+
+@media (max-width: 768px) {
+    
+    body {
+        padding: 15px;
+    }
+    
+    h1 {
+        font-size: 28px;
+    }
+}
